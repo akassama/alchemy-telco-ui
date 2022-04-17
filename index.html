@@ -16,7 +16,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,35 +52,32 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#!">Customers</a></li>
-          <li><a class="nav-link scrollto" href="#!">Product</a></li>
-          <li><a class="nav-link scrollto" href="#!">Technical</a></li>
-          <li><a class="nav-link scrollto" href="#!">Learning Centre</a></li>
+          <li><a class="nav-link scrollto" href="customers.html">Customers</a></li>
+          <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+          <li><a class="nav-link scrollto" href="technical.html">Technical</a></li>
+          <li><a class="nav-link scrollto" href="learning.html">Learning Centre</a></li>
           
-          <li><a class="nav-link scrollto" href="#!">About Alchemy</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="about-us.html">About Alchemy</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
           <!-- <li><a class="getstarted scrollto" href="#about">About Alchemy</a></li> -->
           <li class="ml-5"><a href="#"></a></li>
           <li>
-            <div class="dropdown">
-              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
-                <span class="flag-icon flag-icon-gb"></span><span> EN</span>
-              </button>
-              <ul class="dropdown-menu bg-light">
-                <li>
-                  <a class="dropdown-item text-dark" href="#!">
-                    <span class="flag-icon flag-icon-fr"></span><span> FR</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <a href="#!">
+              <span class="flag-icon flag-icon-gb"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#!">
+              <span class="flag-icon flag-icon-fr"></span>
+            </a>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center hero-section">
@@ -637,93 +635,8 @@
 
       </div>
 
-    </section><!-- End Recent Blog Posts Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Contact</h2>
-          <p class="text-al-purple">Contact Us</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Atlantic Blvd, <br>Bakau, The Gambia</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+220 779 6665<br/>+220 766 2013</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>support@alchemytelco.com<br>alchemytelco@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit" class="bg-al-yellow">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Recent Blog Posts Section -->
 
   </main><!-- End #main -->
 
@@ -754,11 +667,11 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#!">Customers</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#!">Products</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#!">Technical</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#!">Learning Centre</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#!">About Alchemy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="customers.html">Customers</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="technical.html">Technical</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="learning.html">Learning Centre</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about-us.html">About Alchemy</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#!">Terms of service</a></li>
             </ul>
           </div>
@@ -825,6 +738,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Custom JS File -->
+  <script src="assets/js/site.js"></script>
 
 </body>
 

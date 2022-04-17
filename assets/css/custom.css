@@ -1,3 +1,9 @@
+
+/* Color Styles */
+a.active{
+    color: #fbb929 !important;
+}
+
 .bg-al-yellow {
     background-color: #fbb929 !important;
 }
@@ -26,7 +32,53 @@
 }
 
 
+/* Font styles */
+.al-text {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.0rem;
+}
+.al-text-light {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.20rem;
+}
+.al-text-regular {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+.al-text-bold {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.0rem;
+}
+.al-text-black {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
 
+/* Body Styles */
+section {
+    padding: 30px 0 !important;
+}
+
+.breadcrumbs{
+    max-height: 6.5rem !important;
+}
+.mh-10{
+    min-height: 10em !important;
+}
+.mh-12{
+    min-height: 12em !important;
+}
+.mh-14{
+    min-height: 14em !important;
+}
+.mh-15{
+    min-height: 15em !important;
+}
 
 
   /* Extra small devices (phones, 600px and down) */
@@ -37,6 +89,10 @@
 
     .nav-link {
         color: #451670 !important;
+    }
+
+    .breadcrumbs{
+        margin-top: 5rem !important;
     }
 }
   
@@ -49,6 +105,14 @@
     .nav-link {
         color: #451670 !important;
     }
+
+    .header{
+        margin-bottom: 55em !important;
+    }
+
+    .breadcrumbs{
+        margin-top: 5rem !important;
+    }
 }
   
 /* Medium devices (landscape tablets, 768px and up) */
@@ -59,6 +123,10 @@
 
     .nav-link {
         color: #451670 !important;
+    }
+
+    .breadcrumbs{
+        margin-top: 5rem !important;
     }
 } 
 
