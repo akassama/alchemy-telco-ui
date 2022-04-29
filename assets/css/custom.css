@@ -31,7 +31,23 @@ a.active{
     color: #fff !important;
 }
 
+.navbar a, .navbar a:focus {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+    font-size: 15px;
+    font-weight: 700;
+}
 
+
+/* Font family */
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+  }
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+}
 /* Font styles */
 .al-text {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
@@ -57,6 +73,18 @@ a.active{
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 0.9rem;
+}
+
+.al-text-sm p {
+    font-size: 0.7rem;
+}
+
+.al-text-md p {
+    font-size: 1.0rem;
+}
+
+.al-text-lg p {
+    font-size: 1.05rem;
 }
 
 /* Body Styles */
@@ -94,6 +122,10 @@ section {
     .breadcrumbs{
         margin-top: 5rem !important;
     }
+
+    .mobile-nav-toggle{
+        margin-left: 22rem !important;
+    }
 }
   
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -107,11 +139,15 @@ section {
     }
 
     .header{
-        margin-bottom: 55em !important;
+        margin-bottom: 25em !important;
     }
 
     .breadcrumbs{
         margin-top: 5rem !important;
+    }
+
+    .mobile-nav-toggle{
+        margin-left: 32rem !important;
     }
 }
   
@@ -128,6 +164,10 @@ section {
     .breadcrumbs{
         margin-top: 5rem !important;
     }
+
+    .mobile-nav-toggle{
+        margin-left: 40rem !important;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -139,15 +179,23 @@ section {
     .nav-link {
         color: #fff !important;
     }
+
+    .na-link-divider{
+        min-width: 5em;
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .hero-section{
-        margin-top: 3rem !important;
+        margin-top: 1.5rem !important;
     }
 
     .nav-link {
         color: #fff !important;
+    }
+
+    .na-link-divider{
+        min-width: 7.5em;
     }
 }
